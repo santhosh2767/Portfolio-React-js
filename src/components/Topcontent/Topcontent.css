@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.Topcontent{
+   color: white;
+   position: relative;
+}
+ 
+.Topcontent_container {
+    position: absolute;
+    top: 200px;
+    right: 150px;
+}
+
+.Topcontent_container>p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+.Topcontent_container > a > button {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.Topcontent_container>h1{
+    font-size: 50px;
+    font-family: "montserrat" sans-serif;
+}
+.Topcontent_db{
+    color:white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: "montserrat",sans-serif;
+    font-weight: 300;
+    cursor:pointer;
+    margin-right: 20px;
+}
+
+.Topcontent_db:hover{
+    color: #f64c08;
+background-color: white;
+font-weight: 600;
+}
+
+.Topcontent_mw{
+    color: white;
+border: 1px solid white !important;
+background-color: transparent;
+font-size: 14px;
+padding: 9px 45px;
+font-family: sans-serif;
+font-weight: 00;
+cursor: pointer;
+}
+
+.Topcontent_mw:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+
+}

@@ -1,0 +1,29 @@
+.contact{
+    color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin: 200x 0 100px;
+}
+
+.contact_id{
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contact_id >p{
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.contact_id>p>span{
+    color:red;
+}
