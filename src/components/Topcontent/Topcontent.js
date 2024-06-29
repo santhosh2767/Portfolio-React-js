@@ -8,9 +8,9 @@ const Topcontent = () => {
         <h1> Santhosh kumar </h1>
         <p> A professional Frontend developer</p>
         <a href='https://drive.google.com/file/d/1XuS_rJnMfH-y8xo8dL-xfc1rMsNy8opd/view?usp=sharing' target='blank'> <button className='Topcontent_db'> Download Cv</button></a>
-        <Link to =' project' smooth={true} duration={500}> 
-        <button className='Topcontent_mw'> My Work</button>
-        </Link>
+        <a href='https://github.com/santhosh2767' target='_blank' rel='noopener noreferrer'>
+        <button className='Topcontent_mw'>My Work</button>
+        </a>
         </div>
     </div>
   )
